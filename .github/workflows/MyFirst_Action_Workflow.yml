@@ -1,0 +1,14 @@
+name: MyFirst_Action_Workflow
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: [windows-latest, windows-2022, windows-2019]
+    steps: 
+      - name: print_gretting
+        run: echo "Hello World!!"
+      
+      - name: Good_Bye
+        run: echo "Good Bye!!"
+      
+    
+    
