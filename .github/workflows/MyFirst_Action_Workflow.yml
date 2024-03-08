@@ -5,10 +5,26 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: print_gretting
-        run: echo "Hello World!!"
-      
+        run: echo "Hello World!!"  
       - name: Good_Bye
         run: echo "Good Bye!!"
+
+  jobs:    
+    send_job:
+      runs-on: ubuntu-latest
+      steps: 
+      - name: print_gretti
+        run: echo "Hello World!!"  
+      - name: Good_B
+        run: echo "Good Bye!!"
+        
+
+
+        
+
+        
+
+  
       
     
     
