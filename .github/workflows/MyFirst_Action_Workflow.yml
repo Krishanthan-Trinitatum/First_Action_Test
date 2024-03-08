@@ -9,14 +9,16 @@ jobs:
       - name: Good_Bye
         run: echo "Good Bye!!"
 
-  jobs:    
-    send_job:
+  jobs: 
+    Seound_job 
       runs-on: ubuntu-latest
       steps: 
-      - name: print_gretti
-        run: echo "Hello World!!"  
-      - name: Good_B
-        run: echo "Good Bye!!"
+        - name: print Hi
+          run: echo "Hi" 
+        - name: hello
+          run: echo "bye"
+
+
         
 
 
